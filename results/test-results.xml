@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0.005" tests="4" failures="0">
+  <testsuite name="Root Suite" timestamp="2023-06-26T14:06:15" tests="0" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="Test Suite 1" timestamp="2023-06-26T14:06:15" tests="2" file="/Users/bhavyakarimikonda/Documents/Automation_Frameworks/Mocha/specs/demoTest.spec.js" time="0.003" failures="0">
+    <testcase name="Test the add functionality 1" time="0.001" classname="Test Suite 1 Test the add functionality 1">
+    </testcase>
+    <testcase name="Test the equality functionality 1" time="0.000" classname="Test Suite 1 Test the equality functionality 1">
+    </testcase>
+  </testsuite>
+  <testsuite name="Test Suite 2" timestamp="2023-06-26T14:06:15" tests="2" file="/Users/bhavyakarimikonda/Documents/Automation_Frameworks/Mocha/specs/demoTest.spec.js" time="0.001" failures="0">
+    <testcase name="Test the add functionality 2" time="0.000" classname="Test Suite 2 Test the add functionality 2">
+    </testcase>
+    <testcase name="Test the equality functionality 2 " time="0.000" classname="Test Suite 2 Test the equality functionality 2 ">
+    </testcase>
+  </testsuite>
+</testsuites>
