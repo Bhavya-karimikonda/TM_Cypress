@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="26.088" tests="5" failures="3">
+  <testsuite name="Root Suite" timestamp="2023-06-29T14:58:33" tests="0" file="cypress/e2e/first-test.cy.js" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="First test suite" timestamp="2023-06-29T14:58:33" tests="4" time="23.182" failures="3">
+    <testcase name="First test suite Verify Browserstack logo is visible" time="0.000" classname="Verify Browserstack logo is visible">
+      <failure message="Timed out retrying after 4000ms: Expected to find element: `#logo`, but never found it." type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: Expected to find element: `#logo`, but never found it.
+    at Context.eval (webpack:///./cypress/e2e/first-test.cy.js:6:22)]]></failure>
+    </testcase>
+    <testcase name="First test suite Verify Header is present" time="2.142" classname="Verify Header is present">
+    </testcase>
+    <testcase name="First test suite Verify Product menu are present" time="0.000" classname="Verify Product menu are present">
+      <failure message="Timed out retrying after 4000ms: Expected to find element: `#product-menu-toggle`, but never found it." type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: Expected to find element: `#product-menu-toggle`, but never found it.
+    at Context.eval (webpack:///./cypress/e2e/first-test.cy.js:23:9)]]></failure>
+    </testcase>
+    <testcase name="First test suite Verify menu Links are  present" time="0.000" classname="Verify menu Links are  present">
+      <failure message="Timed out retrying after 4000ms: Expected to find element: `a[title=&apos;Sign In&apos;]`, but never found it." type="AssertionError"><![CDATA[AssertionError: Timed out retrying after 4000ms: Expected to find element: `a[title='Sign In']`, but never found it.
+    at Context.eval (webpack:///./cypress/e2e/first-test.cy.js:38:9)]]></failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="Second Test Suite" timestamp="2023-06-29T14:58:56" tests="1" time="2.875" failures="0">
+    <testcase name="Second Test Suite second bstack test" time="0.576" classname="second bstack test">
+    </testcase>
+  </testsuite>
+</testsuites>
